@@ -159,7 +159,7 @@ void dt_splash_screen_create(const gboolean force)
   gtk_widget_set_name(GTK_WIDGET(image), "splashscreen-image");
   gtk_image_set_pixel_size(GTK_IMAGE(logo), 180);
   GtkWidget *program_desc =
-    GTK_WIDGET(gtk_label_new(_("Photography workflow application\nand RAW developer")));
+    GTK_WIDGET(gtk_label_new(_("Photography workflow application\nand RAW developer (VB Version)")));
   gtk_label_set_justify(GTK_LABEL(program_desc), GTK_JUSTIFY_CENTER);
   gtk_widget_set_name(program_desc, "splashscreen-description");
 
